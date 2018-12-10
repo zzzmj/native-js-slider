@@ -4,9 +4,11 @@
 
 ## 淡入淡出轮播图 (～￣▽￣)～
 
+### 1. 预览图
 
+![](https://ws1.sinaimg.cn/large/006PpBLoly1fy21nbdd0oj30pj0h1mxk.jpg)
 
-### 1. 原理
+### 2. 原理
 
 淡入淡出效果主要利用了
 
@@ -20,7 +22,7 @@
 
 
 
-### 2. 功能
+### 3. 功能
 
 点击 pre ，next 切换上一张，下一张图片
 
@@ -28,6 +30,6 @@
 
 
 
-### 3. 演示
+### 4. 演示
 
 https://zzzmj.github.io/demo/slide/index.html

@@ -4,7 +4,7 @@ function showSlide() {
     var slide = document.querySelector('.yd-slide')
     var imgs = document.querySelectorAll('.yd-slide-img')
     var pages = document.querySelectorAll('.slider-indicators-btn')
-    var len= imgs.length
+    var len = imgs.length
 
     pre.onclick = function() {
         var curIndex = parseInt(slide.dataset.active)
@@ -34,11 +34,9 @@ function showSlide() {
         var curIndex = parseInt(slide.dataset.active)
         toggle(imgs, curIndex, 'yd-active')
         toggle(pages, curIndex, 'slider-indicators-btn-active')
-
         // 激活改变后的页面和页码
         toggle(imgs, index, 'yd-active')
         toggle(pages, index, 'slider-indicators-btn-active')
-        // 改变属性坐标
         slide.dataset.active = index
     }
 
@@ -51,4 +49,5 @@ function showSlide() {
         }
     }
 }
+
 showSlide()
